@@ -1,0 +1,483 @@
+.red{
+	color:red
+}
+.blue{
+	color:#20ac7c
+	
+}
+.orange{
+	color:orange
+}
+.bold{font-weight:bold}
+.u{
+	text-decoration:underline;
+	color:blue;font-weight:bold;
+	text-transform:lowercase;
+	font-size:2em;
+}
+.o{
+	text-decoration:line-through;
+	color:#0c56de;
+	text-transform:uppercase;
+	font-size:250%;
+}
+.font{
+	font-family:arial;
+	font-size:25px;
+	font-weight:bold;
+	font-style:italic;
+	color:#20ac7c;
+	font-variant:small-caps;
+	line-height:150% 
+}
+.font2{
+	font: italic small-caps bold 35px/120% arial;
+	
+}
+.pic{
+	 font: italic small-caps bold 46px arial;
+	 background-image:url("image/two-glass.jpg");
+	
+	p {background-image:url("masud21.jpg");
+   background-repeat:repeat-y;
+   background-size:cover;
+}
+/*
+1.***Akhane Backgrounde Picture Add korte use kora hoy
+p {background-image:url("govt.png");}
+
+2.Picture ti Onk bar jate na add hoy
+p{background-repeat:no-repeat;}
+
+3.Picture Bam theke Dane nite
+p{background-repeat:repeat-x;}
+
+4.Picture opor theke nice nite
+p{background-repeat:repeat-y;}
+
+5>Picture choto boro korte
+p{background-size:200px 150px;}
+
+6.Picture ti full sceen korte
+p{background-size:cover;}
+*/
+	
+}
+/*<!--if no repeat "background-repeat:no-repeat;"
+	if repeat x or y "background-repeat:repeat-x or y;"
+	if u want size "background-size:200px 150px;"--> background-repeat:no-repeat;-->
+		*/
+
+table{
+	width:650px;/*Size choto boro korte*/
+	text-align:center;/*lekha Dane bame nite*/
+	margin:50px auto;/*Table Majhkahne nite*/
+	background-color:#ddd;/*Color Change korte*/
+}
+table,th,td{
+	border-collapse:collapse;/*Line singel korte*/
+    border:2px solid red;}/*border size,type & color korte*/
+	.id3{
+		background-color:#008000;
+		color:#fff}/*Text color korte*/
+	table caption{
+	background-color:#008000;}/*Table caption color korte*/
+		
+.table_left{text-align:left}
+
+
+.div1{
+	 width:300px;
+	 height:300px;
+	 background-color:#ddd;
+	 margin-top:50px;
+	 margin-left:20px;/*Margin hosse ekta alliment hote arekta alliment ar durotto*/
+	 padding:5px;/*sompurno alliment ar size boro kora*/
+}
+
+.div2{
+	 width:300px;
+	 height:300px;
+	 background-color:blue;
+	 margin-top:20px;
+	 margin-left:20px;
+	 margin-right:20px;
+	 margin-bottom:20px;
+	 padding:5px 10px 15px 20px; /*ak sathe opore/dane/nice/ deoyar jonno*/
+	
+}
+
+#wrapper >h4{/*akhane >p use kora hoyese sudhu wrapper ar majher <p> gulak neoyar jonno jonno*/
+         border:1px solid red;
+         width:600px;
+         height:150px;
+         overflow:scroll;
+}
+
+.block1{
+	 width:200px;
+	 height:200px;
+	 background-color:red;
+	 float:left;
+	 margin-right:20px;
+}
+.block2{
+	 width:200px;
+	 height:200px;
+	 background-color:green;
+	 float:left;
+}
+
+.block3{
+	 width:200px;
+	 height:200px;
+	 background-color:red;
+	 
+}
+.block3:hover{
+	 width:300px;
+	 height:300px;
+	 background-color:green;
+	 
+}
+.block4{
+	 width:200px;
+	 height:200px;
+	 background-color:red;
+	 
+	 -webkit-transition: all 3s ease;
+	 /*-webkit- use korar maddhome ai transition sokol browser a kaj korbe...*/
+	 transition: all 3s ease;
+}
+.block4:hover{
+	 width:300px;
+	 height:300px;
+	 background-color:green;
+	
+	 -webkit-transform:rotate(360deg);
+	
+	 transform:rotate(360deg);
+	 /*Transform:rotate(360deg);*/
+	  /*Transform:skewY(20deg);*/
+	   /*Transform:skewY(20deg);*/
+}
+
+.block5{
+	 background:url(
+	 'image/nature1.jpg') no-repeat;
+	 
+	 background-attachment:fixed
+	 
+}
+button[type=submit]{
+	width:100px;
+	height:36px;
+	color:green;
+	border-radius:5px;
+}
+button[type=reset]{
+	width:80px;
+	height:36px;
+	color:blue;
+	border-radius:5px;
+}	
+
+.mybtn{
+	width:150px;
+	height:45px;
+	border-radius:15px;
+	font-size:20px;
+	padding:5px;
+	color:#000;
+	transition:all 1s ease;
+}
+.mybtn:hover{
+	color:#fff;
+	background:#000;
+	cursor:pointer;
+}
+.mydiv{
+	width:800px;
+	height:150px;
+	
+	
+	background:-o-linear-gradient(right, red, green);
+	
+	background:-moz-linear-gradient(right, red, green);
+	
+	background:-webkit-linear-gradient(right, red, green);
+	
+	background:linear-gradient(to right, red, green);
+	
+}
+.mydiv1{
+	width:800px;
+	height:150px;
+	
+	
+	background:-o-radial-gradient(red 12%, green 28%, blue 68%, yellow 40%);
+	
+	background:-moz-radial-gradient(red 12%, green 28%, blue 68%, yellow 40%);
+	
+	background:-webkit-radial-gradient(red 12%, green 28%, blue 68%, yellow 40%);
+	
+	background:radial-gradient(red 12%, green 28%, blue 68%, yellow 40%);
+}
+
+.mydiv2{
+	width:150px;
+	height:150px;
+	background-color:red;
+	
+	-webkit-animation-name: masud;
+	animation-name: masud;
+	
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	
+	-webkit-animation-iteration-count: 3;
+	animation-iteration-count: 3;
+}
+
+@-webkit-keyframes masud{
+	from{background-color:red}
+	to{background-color:green;border-radius:50%}
+}
+@keyframes masud{
+	from{background-color:red}
+	to{background-color:green;border-radius:50%}
+}
+
+
+.mydiv3{
+	width:150px;
+	height:150px;
+	background-color:red;
+	
+	
+	-webkit-animation-name: abdul;
+	animation-name: abdul;
+	
+	-webkit-animation-duration: 4s;
+	animation-duration: 4s;
+	
+	-webkit-animation-iteration-count: 5;
+	animation-iteration-count: 5;
+	
+	-webkit-animation-delay: 3s;
+	animation-delay: 0s;
+}
+
+
+@-webkit-keyframes abdul{
+	0%{background-color:red}
+	20%{background-color:green}
+	40%{background-color:blue;width:200px;height:200px;}
+	80%{background-color:yellow}
+	100%{background-color:red}
+}
+
+@keyframes abdul{
+	0%{background-color:red}
+	20%{background-color:green}
+	40%{background-color:blue;width:200px;height:200px;}
+	80%{background-color:yellow}
+	100%{background-color:red}
+}
+
+
+
+
+.mydiv4{
+	width:150px;
+	height:150px;
+	background-color:red;
+	position:relative;
+	
+	
+	-webkit-animation-name: abdul1;
+	animation-name: abdul1;
+	
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+	
+	-webkit-animation-direction:alternate;
+	animation-direction:alternate;
+}
+
+
+@-webkit-keyframes abdul1{
+	from{left:0}
+	to{left:200px;}
+}
+
+@keyframes abdul1{
+	from{left:0}
+	to{left:200px;}
+}
+
+
+
+.mydiv5{
+	width:150px;
+	height:150px;
+	background-color:red;
+	position:relative;
+	
+	
+	-webkit-animation-name: abdul2;
+	animation-name: abdul2;
+	
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+	
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+	
+	-webkit-animation-direction:reverse;
+	animation-direction:reverse;
+}
+
+
+@-webkit-keyframes abdul2{
+	0%{left:0;top:0; background:red}
+	25%{left:200px;top:0; background:green}
+	50%{left:200px;top:200px; background:yellow}
+	75%{left:0;top:200px; background:blue}
+	100%{left:0;top:0; background:red}
+}
+@keyframes abdul2{
+	0%{left:0;top:0; background:red}
+	25%{left:200px;top:0; background:green}
+	50%{left:200px;top:200px; background:yellow}
+	75%{left:0;top:200px; background:blue}
+	100%{left:0;top:0; background:red}
+}
+
+video{
+	width:1000px;
+	background:red;
+	padding:10px;
+	border-radius:5px;
+}
+
+
+
+
+*{margin:0;padding:0}
+.wrapper1{
+	width:960px;
+	margin:50px auto;
+}
+.box img{
+	width:300px;
+	height:180px;
+}
+.box h2{
+	color:orange;
+}
+.box p{
+	text-align:justify;
+}
+.box{
+	width:300px;
+	float:left;
+	margin-right:30px;
+}
+.nomrgn{
+	margin-right:0px;
+}
+.box a{
+	text-decoration:none;
+	background-color:orange;
+	color:red;
+	margin:0 auto;
+	display:block;
+	text-align:center;
+	margin-top:5px;
+	padding:3px 0;
+	
+	transition:all 1s ease;
+	
+}
+.box a:hover{
+	background:#000;
+	color:#fff;
+}
+
+
+
+#menu{
+	padding:0;
+	list-style-type:none;
+	width:960px;
+	background:#4E4E4E;
+	border-bottom:5px solid orange;
+	min-height:38px;
+	margin:0 auto;
+}
+#menu li{
+	float:left;
+	border-right:1px solid #605B5B;
+	border-left:1px solid #2B2A2A;
+	position:relative;
+	
+}
+
+#menu li:last-child{
+	border-right:none;
+}
+#menu li:first-child{
+	border-left:none;
+}
+#menu li a{
+	color:#fff;
+	text-decoration:none;
+	background:#4E4E4E;
+	padding:10px 20px;
+	display:block;
+	transition:0.3s all ease;
+}
+#menu li a:hover{
+	background:orange;
+}
+
+
+#menu li ul{
+	list-style-type:none;
+	padding:0;
+	position:absolute;
+	left:-99999px;
+	/*transition:0.5s all ease;*/
+}
+#menu li:hover ul{
+	left:0;
+}
+
+#menu li ul li{
+	float:none;
+	border-right:none;
+	border-left:none;
+	border-top:1px solid #605B5B;
+	border-bottom:1px solid #2B2A2A;	
+	width:200px;
+	position:relative;
+}
+
+#menu li ul li ul{
+	position:absolute;
+	top:-999999px;
+}
+#menu li ul li:hover ul{
+	top:0;
+	left:200px;
+}
